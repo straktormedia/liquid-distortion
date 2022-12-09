@@ -10,7 +10,7 @@ const app = new Application({
 
 // Resize
 app.renderer.resize(window.innerWidth, window.innerHeight);
-// app.renderer.view.style.position = "absolute";
+app.renderer.view.style.position = "absolute";
 
 // Import PIXI canvas to DOM (or any container)
 document.body.appendChild(app.view);
